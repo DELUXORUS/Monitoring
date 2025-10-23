@@ -33,7 +33,6 @@ private:
     void _distribByType(BaseMonitoringAction* device, int order);
 private:
     std::vector<BaseMonitoringAction*> _devices;
-    // std::vector<std::vector<double>> _devicesIndicators;
     std::vector<QString> _devicesIndicators;
     std::mutex _m;
 };

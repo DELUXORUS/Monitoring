@@ -1,5 +1,4 @@
 #include <thread>
-#include <iostream>
 
 #include "monitoring.h"
 #include "threadGuard.h"

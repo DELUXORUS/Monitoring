@@ -5,6 +5,11 @@
 #include <QString>
 #include <vector>
 
+#include <dxgi1_4.h>
+#include <d3dkmthk.h>
+#include <QString>
+#include <vector>
+
 #include "baseMonitoringAction.h"
 
 

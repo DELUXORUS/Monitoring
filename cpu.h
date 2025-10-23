@@ -11,8 +11,6 @@ class Cpu : public SpecialCpuMonitoring
 public:
     Cpu();
     QString getLoad() override;
-    // QString getName() override;
-    // double getTemperature() override;
 private:
     QString _getName();
 private:

@@ -1,7 +1,10 @@
 #ifndef RAM_H
 #define RAM_H
 
+#include <QString>
+
 #include "baseMonitoringAction.h"
+
 
 #define CONVERT_MB (1024 * 1024)
 

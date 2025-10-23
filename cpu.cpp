@@ -1,9 +1,6 @@
 #include <windows.h>
 #include <stdint.h>
 #include <intrin.h>
-
-// #include <cpuid.h>
-
 #include "cpu.h"
 
 
