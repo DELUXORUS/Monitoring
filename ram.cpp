@@ -1,5 +1,4 @@
 #include <windows.h>
-#include <cmath>
 
 #include "ram.h"
 
@@ -12,7 +11,6 @@ QString Ram::getLoad()
     memStatus.dwLength = sizeof(memStatus);
     if (!GlobalMemoryStatusEx(&memStatus))
         return 0;
-    // double freeMemory = (static_cast<double>(memStatus.ullTotalPhys) - memStatus.ullAvailPhys) / CONVERT_MB;
     double freeMemory = (static_cast<double>(memStatus.ullTotalPhys) - memStatus.ullAvailPhys) / CONVERT_MB;
 
     QString nameDevice = "RAM";
