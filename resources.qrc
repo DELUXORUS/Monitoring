@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fonts/minecraft.ttf</file>
+        <file>icon/icon.ico</file>
+    </qresource>
+</RCC>

@@ -20,7 +20,7 @@ if(MSVC)
   add_definitions("/D _CRT_STDIO_ISO_WIDE_SPECIFIERS")
 endif()
 
-add_executable(Monitoring_MSVC
+add_executable(Monitoring_MSVC WIN32
   main.cpp
   cpu.h cpu.cpp
   monitoring.h monitoring.cpp
@@ -33,6 +33,7 @@ add_executable(Monitoring_MSVC
   specialCpuMonitoring.h
   threadGuard.h threadGuard.cpp
   monitoringOverlay.h monitoringOverlay.cpp
+  resources.qrc
 
 
 
